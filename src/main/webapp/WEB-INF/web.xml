@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_0.xsd">
+  <servlet>
+    <servlet-name>SaveServelt</servlet-name>
+    <servlet-class>com.blog.contrller.SaveServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveServelt</servlet-name>
+    <url-pattern>/save</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeletServelt</display-name>
+    <servlet-name>DeletServelt</servlet-name>
+    <servlet-class>com.blog.controller.DeletServelt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeletServelt</servlet-name>
+    <url-pattern>/DeletServelt</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GetData</display-name>
+    <servlet-name>GetData</servlet-name>
+    <servlet-class>com.blog.controller.GetData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetData</servlet-name>
+    <url-pattern>/GetData</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateServelt</display-name>
+    <servlet-name>UpdateServelt</servlet-name>
+    <servlet-class>com.blog.controller.UpdateServelt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateServelt</servlet-name>
+    <url-pattern>/UpdateServelt</url-pattern>
+  </servlet-mapping>
+</web-app>
